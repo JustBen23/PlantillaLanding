@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* --------------------------------- Footer --------------------------------- */
+main {
+  min-height: 85vh;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 1rem;
+  max-width: 100%;
+  height: 150px;
+  background-color: #000;
+}
+
+.contenedor_footer p {
+  max-width: 100%;
+  height: auto;
+  color: white;
+}
+
+.contenedor_tarjetas {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.tarjeta {
+  width: 300px;
+  height: 450px;
+  background: rgb(255, 216, 216);
+  border-radius: 5px;
+}
