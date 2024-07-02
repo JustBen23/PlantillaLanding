@@ -1,9 +1,12 @@
 {
+  "homepage": "https://justBen23.github.io/PlantillaLanding",
   "name": "pagina-landing-1-enigmas",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
