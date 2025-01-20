@@ -3,21 +3,24 @@
 }
 
 .navBar_fixed {
-  background: rgba(146, 146, 146);
+  background: rgba(146, 146, 146,0.5);
+  padding: 0.8rem 0.8rem;
   transition: 0.6s;
 }
 
 nav {
-  position: sticky;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   top: 0;
-  padding: 0.3rem;
+  width: 99%;
+  height: 3.5rem;
+  padding: 0.3rem 0.6rem;
   gap: 10px;
-  background: rgba(254, 169, 169, 0.5);
+  background: transparent;
   z-index: 100;
-  transition: 1s;
+  transition: .6s;
 }
 
 nav span {
@@ -35,10 +38,9 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  padding: 0.8rem;
-  margin: 0 0.5rem;
-  border-radius: 6px;
-  background: rgb(255, 236, 236);
+  padding: .4rem 1rem;
+  margin: 0 1rem;
+  border-radius: 30px;
   transition: 0.6s;
 }
 
@@ -72,6 +74,7 @@ nav .menu span {
   nav {
     flex-direction: column;
     align-items: start;
+    background: blue;
   }
 
   nav ul {

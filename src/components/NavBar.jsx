@@ -1,21 +1,14 @@
 import { NavLink, Link } from "react-router-dom";
 
 import "../styles/NavBar.css";
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
+
 
 export const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [fix, setFix] = useState(false);
 
-  function setFixed() {
-    if (window.scrollY > 0) {
-      setFix(true);
-    } else {
-      setFix(false);
-    }
-  }
-
-  window.addEventListener("scroll", setFixed);
+  window.addEventListener("scroll", () => window.scrollY > 0 ? setFix(true) : setFix(false));
 
   return (
     < >

@@ -14,7 +14,7 @@ export const AnimacionDePagina = ({ children }) => {
         initial="initial"
         animate="animate"
         exit="exit"
-        transition={{ duration: .5 }}
+        transition={{ duration: .25 }}
       >
         {children}
       </motion.main>
