@@ -1,11 +1,11 @@
 import { AnimacionDePagina } from "./AnimacionDePagina";
 
-export const Pagina1 = () => {
+export const SobreMi = () => {
   return (
-    < >
+    <>
       <AnimacionDePagina>
       <div className="secondary_page">
-        <h1>Pagina UNOOOOOOO!!!!!!!!!!</h1>
+        <h1>Información acerca de mi(?)</h1>
       </div>
       </AnimacionDePagina>
     </>
